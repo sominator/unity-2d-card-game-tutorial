@@ -63,12 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CardFlipper.cs" />
-    <Compile Include="Assets\Scripts\CardZoom.cs" />
-    <Compile Include="Assets\Scripts\DebugLogDisplay.cs" />
-    <Compile Include="Assets\Scripts\DragDrop.cs" />
-    <Compile Include="Assets\Scripts\DrawCards.cs" />
-    <Compile Include="Assets\Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\CardAbilities.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\CardFlipper.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\CardZoom.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\DragDrop.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\PingAbilities.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\YardZoom.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\DebugLogDisplay.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\DrawCards.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\UIManager.cs" />
     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
     <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
     <None Include="Assets\Mirror\Readme.txt" />

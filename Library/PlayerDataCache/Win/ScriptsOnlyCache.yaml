@@ -6,7 +6,11 @@ ScriptsOnlyBuild:
     - DebugLogDisplay
     - DragDrop
     - DrawCards
+    - GameManager
+    - PingAbilities
     - PlayerManager
+    - UIManager
+    - YardZoom
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     Mirror.dll:
@@ -38,6 +42,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -78,29 +83,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10004}
     - Class: 114
-      Script: {instanceID: 10398}
+      Script: {instanceID: 10156}
     - Class: 114
-      Script: {instanceID: 10526}
+      Script: {instanceID: 10400}
     - Class: 114
       Script: {instanceID: 10528}
     - Class: 114
-      Script: {instanceID: 10820}
+      Script: {instanceID: 10530}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 10572}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 10824}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 11774}
+      Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 15450}
+      Script: {instanceID: 11754}
     - Class: 114
-      Script: {instanceID: 17348}
+      Script: {instanceID: 11780}
+    - Class: 114
+      Script: {instanceID: 11832}
+    - Class: 114
+      Script: {instanceID: 14040}
+    - Class: 114
+      Script: {instanceID: 31716}
+    - Class: 114
+      Script: {instanceID: 37270}
+    - Class: 114
+      Script: {instanceID: 39776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -238,7 +253,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: ec0dd865a06b258fdadaaa60bcccb43f
+      Hash: 819987b154b939277922988c37cf7ba5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DrawCards
@@ -302,6 +317,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7edca2a71203161e60acf74501ef0c6d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CardFlipper
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -412,10 +433,16 @@ ScriptsOnlyBuild:
     className: CardZoom
   - hash:
       serializedVersion: 2
-      Hash: cce7b3b8e451dd2aab6c0d8f5d7ea3a5
+      Hash: 641104050ce7ee4effd5efffe0fc48a2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DragDrop
+  - hash:
+      serializedVersion: 2
+      Hash: f0ddbab21836e5f8c57b747a37f93a4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerManager
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -608,6 +635,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: Mirror
     className: FallbackTransport
+  - hash:
+      serializedVersion: 2
+      Hash: bb560bc3eec556516d3480ba529763ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DebugLogDisplay
   - hash:
       serializedVersion: 2
       Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
@@ -826,22 +859,28 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 3ad6382617c540dc3fbe58f63d4c1b7a
+      Hash: 1046bc38644847fbab22c4404d0d562f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerManager
+    className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 592a1672b0b600d35bad890f222bcc4f
+      Hash: 6fd445a1fa811306f7985df11d446a8f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CardFlipper
+    className: UIManager
   - hash:
       serializedVersion: 2
-      Hash: bb560bc3eec556516d3480ba529763ad
+      Hash: 64cc102f637a21a835808ec53053ba4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DebugLogDisplay
+    className: YardZoom
+  - hash:
+      serializedVersion: 2
+      Hash: ec0dd865a06b258fdadaaa60bcccb43f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PingAbilities
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
